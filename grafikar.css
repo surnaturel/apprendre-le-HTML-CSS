@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sevillana', cursive;
+    background-color: rgba(156, 236, 232, 0.781);
+}
+.menu{
+    margin: 5px auto;
+}
+.menu ul{
+    margin: 20Px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+    border: 1px solid;
+    background-color: rgba(171, 171, 240, 0.74);
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: aliceblue;
+}
+.baniere{
+    width: 100%;
+}
+.baniere img{
+    width: 100%;
+    height: calc(.35 * 100vw);
+}
+#contenu-text{
+    background-color: antiquewhite;
+}
+.texte-explication{
+    margin: 5px auto;
+    width: 80%;
+    text-align: center;
+}
+.texte-explication h2{
+    font-family: 'Sevillana', cursive;
+    font-size: 2.5em;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.navigation-formulaire{
+    width: 40%;
+    padding-left: 22px;
+}
+.navigation-formulaire h1{
+    text-align: center;
+}
+.nom-email{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nom-email input{
+    padding: 5px 85px 5px 0px;
+    border-radius: 5px;
+}
+
+.age-choix{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.homme-femme{
+    padding: 5px 27px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.age{
+    margin-right: 45px;
+}
+.text-message{
+    margin-top: 30px;
+}
+#message{
+    width: 95%;
+}
+
+.validation-supprimer{
+    margin-top: 20px;
+}
+.validation-supprimer .btn{
+    padding: 9px 54px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.carte-reseaux{
+    width: 45%;
+}
+.carte-reseaux ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.carte-reseaux iframe{
+    display: block;
+    width: 100%;
+    height: calc(0.2625 * 100vw);
+}

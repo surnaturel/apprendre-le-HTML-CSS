@@ -15,3 +15,18 @@
     width: 80%;
     height: calc(.5625 * 80vw);
 }
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap
+}
+.images img{
+    border: 1px solid red;
+    width: 40%;
+    height: calc(.5625 * 40vw);
+    max-width: 400px;
+    max-height: 225px;
+    min-width: 200px;
+    min-height: 123px;
+    margin: 2px 2px;
+}
