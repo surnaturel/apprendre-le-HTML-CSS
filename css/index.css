@@ -1,10 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Sevillana', cursive;
-    background-color: rgba(156, 236, 232, 0.781);
+    background-color: rgb(80, 77, 77);
 }
 .menu{
+    width: 95%;
     margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu img{
+    display: block;
+    width: 10%;
+    height: calc(.44 * 10vw);
 }
 .menu ul{
     margin: 20Px auto;
@@ -12,20 +20,44 @@ body{
     justify-content: space-around;
     width: 60%;
     list-style-type: none;
-    border: 1px solid;
-    background-color: rgba(171, 171, 240, 0.74);
 }
 .menu a{
-    text-decoration: none;
     font-size: 1.6em;
     color: aliceblue;
 }
 .baniere{
+    background-color: rgb(80, 77, 77);
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 50px;
 }
 .baniere img{
-    width: 100%;
-    height: calc(.35 * 100vw);
+    width: 50%;
+    height: calc(.5625 * 50vw);
+    border-radius: 8px;
+}
+.baniere .cellule-controle{
+    padding: 22px;
+    align-items: center;
+    width: 40%;
+    height: calc(.5625 * 50vw);
+}
+.baniere .cellule-controle p{
+    margin: 0;
+    font-size: 2.8em;
+    color: white;
+}
+.baniere .cellule-controle button{
+    margin-top: 12px;
+    padding: 9px 24px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(75, 50, 219);
+    
 }
 #contenu-text{
     background-color: antiquewhite;
@@ -39,7 +71,6 @@ body{
     font-family: 'Sevillana', cursive;
     font-size: 2.5em;
 }
-
 
 footer{
     display: flex;

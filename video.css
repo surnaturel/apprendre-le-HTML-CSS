@@ -19,16 +19,18 @@
     height: calc(.5625 * 80vw);
 }
 .images{
-    display: flex;
     width: 95%;
-    margin: 5px auto;
-    padding: 12px auto;
-    flex-wrap:wrap;
-    justify-items: baseline;
+    margin: 1px auto;
     border: 1px solid rgb(255, 0, 242);
 }
 .main-images{
     border: 1px solid blue;
+    width: 90%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 12px auto;
+    
 }
 .images img{
     border: 1px solid red;
@@ -38,5 +40,5 @@
     max-height: 225px;
     min-width: 200px;
     min-height: 123px;
-    margin: 2px 2px;
+    margin: 8px 12px;
 }
