@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sevillana', cursive;
+    background-color: rgb(80, 77, 77);
+}
+.menu{
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu img{
+    display: block;
+    width: 10%;
+    height: calc(.44 * 10vw);
+}
+.menu ul{
+    margin: 20Px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+}
+.menu a{
+    font-size: 1.6em;
+    color: aliceblue;
+}
+.baniere{
+    background-color: rgb(80, 77, 77);
+    width: 100%;
+    height: calc(.5625 * 60vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 50px;
+}
+.baniere img{
+    width: 50%;
+    height: calc(.5825 * 50vw);
+    border-radius: 8px;
+}
+.baniere .cellule-controle{
+    padding: 12px;
+    align-items: center;
+    width: 40%;
+    height: calc(.5625 * 50vw);
+}
+.baniere .cellule-controle p{
+    margin: 0;
+    font-size: 2.8em;
+    color: white;
+}
+.baniere .cellule-controle .boutton{
+    margin-top: 12px;
+    padding: 9px 24px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(75, 50, 219);
+    
+}
+#contenu-text{
+    background-color: antiquewhite;
+}
+.texte-explication{
+    margin: 5px auto;
+    width: 80%;
+    text-align: center;
+}
+.texte-explication h2{
+    font-family: 'Sevillana', cursive;
+    font-size: 2.5em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.navigation-formulaire{
+    width: 40%;
+    padding-left: 22px;
+}
+.navigation-formulaire h1{
+    text-align: center;
+}
+.nom-email{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nom-email input{
+    padding: 5px 85px 5px 0px;
+    border-radius: 5px;
+}
+
+.age-choix{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.homme-femme{
+    padding: 5px 27px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.age{
+    margin-right: 45px;
+}
+.text-message{
+    margin-top: 30px;
+}
+#message{
+    width: 95%;
+}
+
+.validation-supprimer{
+    margin-top: 20px;
+}
+.validation-supprimer .btn{
+    padding: 9px 54px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.carte-reseaux{
+    width: 45%;
+}
+.carte-reseaux ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+.carte-reseaux iframe{
+    display: block;
+    width: 100%;
+    height: calc(0.2625 * 100vw);
+}
