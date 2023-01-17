@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sevillana', cursive;
+    background-color: rgb(80, 77, 77);
+    
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    display: block;
+    width: 30%;
+    height: calc(.44 * 20vw);
+    margin: auto;
+}
+
+#contenaire{
+
+    width: 60%;
+    height: calc(.5625 * 60vw);
+    position: relative;
+    margin: 5% auto;
+}
+.main{
+    background-color: rgb(155, 149, 149);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 0px 10px;
+}
+.logo{
+    text-align: center;
+}
+.message-inscripton{
+    font-size: 1.23rem;
+    text-align: center;
+    border-left: 5px solid red;
+    padding: 8px;
+    color: white;
+}
+.nom, .password, .confirmation-validation{
+    padding: 24px;
+
+    color: white;
+}
+.nom input, .password input{
+    width: 80%;
+    padding: 8px 5px;
+    font-size: 1.02rem;
+    border: 1px solid;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.confirmation-validation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.confirmation input[type="checkbox"]#confirmation{
+    padding: 0.3rem 0.5rem;
+    border: 1px dashed #ccc;
+}
+
+.confirmation-validation button{
+    padding: 10px 10%;
+    font-size: .98rem;
+    border-radius: 8px;
+    background-color: rgb(37, 115, 233);
+    color: white;
+}
