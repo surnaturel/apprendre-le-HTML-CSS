@@ -57,20 +57,38 @@
     position: absolute;
     top: 20%;
 }
-
 .information .para h1{
-    color: #F3E8EE;
-    font-weight: 500;
-    font-size: 2.76rem !important;
+    color: white;
+    font-weight: 600;
+    font-size: 2.76rem;
+    position: relative;
 }
-.information .button{
-    background-color: #0972CE;
-    padding: 0px 32px;
+.information .para{
+    padding: 24px;
+    margin-bottom: 12px;
+}
+.information .para::before{
+    background-color: #252121;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .24;
 }
 .information .button a{
-    color: black;
-    font-size: 1.23rem;
+    padding: 8px 42px;
+    font-size: 1.34rem;
+    color: #EBD2BE !important;
 }
+.information .plus-info{
+    background-color: #0972CE;
+}
+.information .deconecter{
+    background-color: #ce0923;
+}
+
 #menuNavbar ul a{
     padding: 0 12px;
     margin: 0 12px;
