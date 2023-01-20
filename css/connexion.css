@@ -58,15 +58,13 @@ body{
     justify-content: space-between;
     color: white;
 }
-.confirmation input[type="checkbox"]#confirmation{
-    padding: 0.3rem 0.5rem;
-    border: 1px dashed #ccc;
-}
-
 .confirmation-validation button{
     padding: 10px 10%;
-    font-size: .98rem;
     border-radius: 8px;
     background-color: rgb(37, 115, 233);
+}
+.confirmation-validation button a{
+    font-size: .98rem;
     color: white;
+    text-decoration: none;
 }
