@@ -22,9 +22,7 @@
     object-position: center;
    
 }
-.image img:hover{
-    opacity: .67;
-}
+
 .card-image{
     position: relative;
 }
@@ -60,23 +58,15 @@
 .information .para h1{
     color: white;
     font-weight: 600;
-    font-size: 2.76rem;
+    font-size: 3.76rem;
     position: relative;
+    line-height: 1em;
 }
 .information .para{
     padding: 24px;
     margin-bottom: 12px;
 }
-.information .para::before{
-    background-color: #252121;
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: .24;
-}
+
 .information .button a{
     padding: 8px 42px;
     font-size: 1.34rem;
