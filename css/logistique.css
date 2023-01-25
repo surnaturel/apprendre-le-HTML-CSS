@@ -3,7 +3,6 @@
 
 .main{
     border: 1px solid red;
-    background-color: #2F2F2F;
     width: 100%;
     height: 100vh;
 }
@@ -20,11 +19,8 @@
     height: calc(.5625 * 82vw);
     object-fit:cover;
     object-position: center;
-   
 }
-.image img:hover{
-    opacity: .67;
-}
+
 .card-image{
     position: relative;
 }
@@ -58,48 +54,39 @@
     top: 20%;
 }
 .information .para h1{
-    color: white;
+    color: #fff;
     font-weight: 600;
     font-size: 2.76rem;
     position: relative;
+
 }
 .information .para{
     padding: 24px;
     margin-bottom: 12px;
 }
-.information .para::before{
-    background-color: #252121;
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: .24;
-}
 .information .button a{
     padding: 8px 42px;
     font-size: 1.34rem;
-    color: #EBD2BE !important;
+    color: #fff !important;
 }
 .information .plus-info{
-    background-color: #0972CE;
+    background-color: #811B07;
 }
 .information .deconecter{
-    background-color: #ce0923;
+    background-color: #CE0923;
 }
-
 #menuNavbar ul a{
     padding: 0 12px;
     margin: 0 12px;
     font-size: 1.63rem;
-    color: #001021;
+    color: #000000;
 }
+
 #menuNavbar a:hover{
     background-color: rgb(196, 218, 218);
     color: black;
     border-radius: 4px;
-    padding: 24px;
+    padding: 20px;
 }
 .denombrement{
     width: 50%;
@@ -107,7 +94,7 @@
     top: 0%;
     transform: translate(100%, -120%);
     color: #F3E8EE;
-    background-color: #475B63;
+    background-color: #353535;
     border-radius: 9px;
     opacity: .87;
 }
@@ -124,6 +111,10 @@
     border-radius: 8px;
 }
 
-.resultat-engin{
+.engin .nom-engin{
 font-size: .98rem;
+}
+
+.engin .resultat-engin{
+    color: #6CA7FC;
 }

@@ -1,75 +1,22 @@
+
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Sevillana', cursive;
-    background-color: rgb(80, 77, 77);
-}
-.menu{
-    border: 1px solid red;
-    width: 95%;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around;
-}
-.menu img{
-    display: block;
-    width: 10%;
-    height: calc(.44 * 10vw);
-}
-.menu ul{
-    margin: 20Px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    list-style-type: none;
-}
-.menu a{
-    font-size: 1.6em;
-    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.menu a:hover{
-    background-color: rgb(196, 218, 218);
-    color: black;
-    text-decoration: none;
-    border-radius: 4px;
-}
-.baniere{
-    background-color: rgb(80, 77, 77);
+.contenu{
     width: 100%;
-    height: calc(.5625 * 60vw);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
+    height: 100vh;
+    border: 1px solid yellow;
+    overflow: hidden;
 }
-.baniere img{
-    width: 50%;
-    height: calc(.5825 * 50vw);
-    border-radius: 8px;
-}
-.baniere .cellule-controle{
-    padding: 12px;
-    align-items: center;
-    width: 40%;
-    height: calc(.5625 * 50vw);
-}
-.baniere .cellule-controle p{
-    margin: 0;
-    font-size: 2.8em;
-    color: white;
-}
-.btn{
-    width: 40%;
-    margin-top: 20px;
-}
-.baniere .cellule-controle .boutton{
-    text-align: center;
-    display: block;
-    padding: 9px 24px;
-    border-radius: 4px;
-    font-size: 1.1em;
-    color: white;
-    background-color: rgb(75, 50, 219);
-    
+
+.contenu video{
+    width: 100% ;
+    height: 100vh ;
+    object-fit: cover;
+    object-position: center;
 }
