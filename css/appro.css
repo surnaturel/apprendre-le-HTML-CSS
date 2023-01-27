@@ -2,9 +2,9 @@
 
 
 .main{
-    border: 1px solid red;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 .image{
     margin: 0px auto;
@@ -46,7 +46,6 @@
     list-style-type: none;
     border-radius: 6px;
 }
-
 .information{
     width: 50%;
     padding: 20px;
@@ -57,6 +56,8 @@
     color: #fff;
     font-weight: 600;
     font-size: 2.76rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgb(43, 40, 40);
     position: relative;
 
 }
@@ -71,9 +72,11 @@
 }
 .information .plus-info{
     background-color: #811B07;
+    box-shadow: 2px 2px 2px #534e4c;
 }
 .information .deconecter{
     background-color: #CE0923;
+    box-shadow: 2px 2px 2px #534e4c;
 }
 #menuNavbar ul a{
     padding: 0 12px;
