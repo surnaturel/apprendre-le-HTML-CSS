@@ -16,7 +16,7 @@
 .image img{
     display: block;
     width: 100%;
-    height: calc(.5625 * 82vw);
+    height: 100vh;
     object-fit:cover;
     object-position: center;
 }
